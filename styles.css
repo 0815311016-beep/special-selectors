@@ -1,3 +1,7 @@
+ul {
+    list-style: armenian;
+}
+
 li:hover {
     background-color: blueviolet;
     font-size: 30px;
@@ -11,4 +15,21 @@ li {
 li:active {
     background-color: rgb(97, 44, 122);
     font-style: italic;
+}
+
+li::before {
+    content: "☑";
+}
+
+li:hover::after {
+    content: "Pick me!!! Pick me!!";
+    margin-left: 10px;
+}
+
+li:active::before {
+    content: "✅";
+}
+
+li:active::after {
+    content: "yay!! 😁";
 }
