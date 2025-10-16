@@ -1,0 +1,14 @@
+li:hover {
+    background-color: blueviolet;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+li {
+    background-color: aliceblue;
+}
+
+li:active {
+    background-color: rgb(97, 44, 122);
+    font-style: italic;
+}
